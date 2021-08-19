@@ -1,0 +1,44 @@
+.channellinks {
+  color: #fff;
+  width: 100%;
+  height: 48px;
+  background-color: #181818;
+  padding-left: 74.6px;
+  padding-top: 16px;
+}
+.channellinks .channellinks__links {
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+.channellinks .channellinks__links h3 {
+  font-size: 14px;
+  color: #aaa;
+  font-weight: 500;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 30px;
+  cursor: pointer;
+  padding-bottom: 4px;
+}
+.channellinks .channellinks__links .channellinks__search {
+  font-size: 24px;
+  color: #aaa;
+  font-weight: 500;
+  cursor: pointer;
+  margin: 0 30px;
+}
+.channellinks .channellinks__links h3:first-child {
+  color: #fff;
+  border-bottom: 2px solid #aaa;
+}
+.channellinks .channellinks__links > :hover {
+  color: #fff;
+  transition: 0.2s ease;
+  -webkit-transition: 0.2s ease;
+  -moz-transition: 0.2s ease;
+  -ms-transition: 0.2s ease;
+  -o-transition: 0.2s ease;
+}

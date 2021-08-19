@@ -1,0 +1,10 @@
+.videogrid {
+  flex: 1;
+  height: 91.5vh;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 20px;
+  padding-right: 0px;
+  overflow-y: auto;
+}

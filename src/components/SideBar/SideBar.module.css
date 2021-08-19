@@ -1,0 +1,33 @@
+.sidebar {
+  height: 91.5vh;
+  list-style: none;
+  color: #fff;
+  width: 240px;
+  background-color: #202020;
+}
+.sidebar .sidebar__btn {
+  display: flex;
+  align-items: center;
+  padding: 8px 20px;
+  cursor: pointer;
+}
+.sidebar .sidebar__btn div {
+  opacity: 0.5;
+  margin-right: 20px;
+}
+.sidebar__btn p {
+  font-weight: 500;
+  font-size: 0.9rem;
+}
+.sidebar__btn .sidebar__btn--active > p,
+.sidebar__btn.sidebar__btn--active div {
+  opacity: 1;
+}
+.sidebar__btn.sidebar__btn--active,
+.sidebar__btn:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+.sidebar .sidebar__buttons {
+  padding-bottom: 20px;
+  border-bottom: 2px solid #303030;
+}

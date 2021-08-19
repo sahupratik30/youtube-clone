@@ -1,0 +1,11 @@
+.videoleft {
+  margin-bottom: 20px;
+}
+.videoleft .videoleft__video {
+  width: 100%;
+}
+.videoleft__title {
+  font-size: 18px;
+  font-weight: 500;
+  padding: 0 10px;
+}

@@ -1,0 +1,29 @@
+.sidebarsmall {
+  width: 72px;
+  height: 91.5vh;
+  background-color: #202020;
+}
+.sidebarsmall__item,
+.sidebarsmall__item--active {
+  text-align: center;
+  color: #aaa;
+  padding: 16px 0px 14px;
+  cursor: pointer;
+}
+.sidebarsmall__item:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+.sidebarsmall__item--active {
+  text-align: center;
+  color: #fff;
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.sidebarsmall__item .sidebarsmall__icon {
+  font-size: 24px;
+}
+.sidebarsmall__item p,
+.sidebarsmall__item--active p {
+  font-size: 10px;
+  color: #aaa;
+}

@@ -1,0 +1,13 @@
+.watch {
+  min-height: 91.5vh;
+  color: #fff;
+  padding: 20px 100px;
+  display: flex;
+}
+.watch .watch__left {
+  flex: 0.75;
+  margin-right: 20px;
+}
+.watch .watch__right {
+  flex: 0.25;
+}

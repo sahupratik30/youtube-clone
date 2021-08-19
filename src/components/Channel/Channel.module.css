@@ -1,0 +1,12 @@
+.channel {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  height: 91.5vh;
+  overflow-y: auto;
+  background-color: #121212;
+}
+.channel .channel__banner {
+  width: 100%;
+  height: calc((100vw - 240px) / 6.2 - 1px);
+}

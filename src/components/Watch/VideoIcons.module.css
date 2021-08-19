@@ -1,0 +1,53 @@
+.videoicons {
+  display: flex;
+  align-items: baseline;
+  opacity: 0.5;
+  gap: 20px;
+}
+.videoicons .videoicons__icon {
+  font-size: 28px;
+}
+.videoicons .videoicons__like--dislikes .videoicons__like--dislikes--wrap {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+.videoicons .videoicons__like--dislikes .videoicons__like--dislikes--wrap div {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  cursor: pointer;
+}
+.videoicons .videoicons__like--dislikes .like__dislike--border {
+  height: 3px;
+  overflow: hidden;
+  background-color: #606060;
+  margin-top: 15px;
+  position: relative;
+}
+.videoicons .videoicons__like--dislikes .like__dislike--border::before {
+  position: absolute;
+  content: "";
+  height: 100%;
+  width: 100%;
+  display: block;
+  background-color: #818181;
+  transform: translateX(-8px);
+  -webkit-transform: translateX(-8px);
+  -moz-transform: translateX(-8px);
+  -ms-transform: translateX(-8px);
+  -o-transform: translateX(-8px);
+}
+.videoicons .videoicons__icon--container {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  cursor: pointer;
+}
+.videoicons .videoicons__icon--container .videoicons__icon--share {
+  transform: rotate(180deg) rotateX(180deg);
+  -webkit-transform: rotate(180deg) rotateX(180deg);
+  -moz-transform: rotate(180deg) rotateX(180deg);
+  -ms-transform: rotate(180deg) rotateX(180deg);
+  -o-transform: rotate(180deg) rotateX(180deg);
+}

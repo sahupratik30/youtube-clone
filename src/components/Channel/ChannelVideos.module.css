@@ -1,0 +1,40 @@
+.channelvideos {
+  color: #fff;
+  width: 1070px;
+  margin: auto;
+}
+.channelvideos .channelvideos__uploads {
+  width: 171px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin: 16px 0;
+}
+.channelvideos .channelvideos__uploads .channelvideos__play {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  color: #aaa;
+  font-size: 16px;
+}
+.channelvideos
+  .channelvideos__uploads
+  .channelvideos__play
+  .channelvideos__playicon {
+  font-size: 24px;
+  cursor: pointer;
+}
+.channelvideos .channelvideos__uploads p {
+  font-size: 16px;
+  cursor: pointer;
+  font-weight: 600;
+}
+.channelvideos .channelvideos__uploads h5 {
+  cursor: pointer;
+}
+.channelvideos .channelvideos__videos {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}

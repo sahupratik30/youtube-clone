@@ -1,0 +1,77 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #202020;
+  height: 8.5vh;
+  border-bottom: 1px solid #313131;
+}
+.header div,
+.header form {
+  height: 100%;
+}
+.header__left {
+  display: flex;
+  align-items: center;
+  color: #fff;
+}
+.header__left > img {
+  width: 120px;
+  cursor: pointer;
+}
+.header__left .menuicon {
+  margin: 0 20px;
+  font-size: 25px;
+  cursor: pointer;
+}
+.header__right {
+  display: flex;
+  align-items: center;
+}
+.header__right > * {
+  margin-right: 20px;
+  font-size: 25px;
+  color: #fff;
+  cursor: pointer;
+}
+.header__right .header__avatar {
+  width: 32px !important;
+  height: 32px !important;
+}
+.header__center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-grow: 1;
+}
+.header__center .header__input {
+  width: 50%;
+  background-color: #121212;
+  outline: none;
+  height: 32px;
+  padding-left: 10px;
+  font-size: 16px;
+  color: #fff;
+  border: 1px solid #303030;
+  border-right: none;
+}
+.header__center .header__btn {
+  height: 32px;
+  background-color: #313131;
+  border-radius: 0 2px 2px 0;
+  -webkit-border-radius: 0 2px 2px 0;
+  -moz-border-radius: 0 2px 2px 0;
+  -ms-border-radius: 0 2px 2px 0;
+  -o-border-radius: 0 2px 2px 0;
+}
+.header__center .header__searchicon {
+  color: #fff;
+  opacity: 0.2;
+  font-size: 20px;
+}
+.header__center .header__btn:hover {
+  background-color: #313131;
+}
+.header__center .header__btn:hover .header__searchicon {
+  opacity: 0.4;
+}
